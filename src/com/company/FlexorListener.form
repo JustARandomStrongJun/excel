@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.FlexorListener">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e525f" class="javax.swing.JTextArea" binding="output">
+        <constraints/>
+        <properties>
+          <dragEnabled value="false"/>
+          <editable value="false"/>
+          <lineWrap value="true"/>
+          <preferredSize width="500" height="300"/>
+          <wrapStyleWord value="true"/>
+        </properties>
+      </component>
+      <scrollpane id="2f061">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+      <component id="b3f36" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints/>
+        <properties>
+          <hideActionText value="false"/>
+          <text value="Start"/>
+        </properties>
+      </component>
+      <component id="101ea" class="javax.swing.JButton" binding="stopButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Stop"/>
+        </properties>
+      </component>
+      <component id="d3574" class="javax.swing.JComboBox" binding="portSwicher">
+        <constraints/>
+        <properties/>
+      </component>
+      <scrollpane id="fcc39">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor" id="43405"/>
+  </inspectionSuppressions>
+</form>
